@@ -16,3 +16,6 @@ public class Main {
         library.displayItems();
     }
 }
+użytkownicy
+wypożyczanie książek
+ewntualnie naliczanie opłat za oddanie po terminie | rodzaje użytkowników
