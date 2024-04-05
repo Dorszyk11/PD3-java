@@ -1,8 +1,8 @@
 package library;
 
 public class Book extends Item {
-    String genre;
-    String ISBN;
+    private String genre;
+    private String ISBN;
 
     public Book(String title, String author, int year, String genre, String ISBN) {
         super(title, author, year);
@@ -12,6 +12,7 @@ public class Book extends Item {
 
     @Override
     public void display() {
-        System.out.println("Book: " + title + " | Author: " + author + " | Year: " + year + " | Genre: " + genre + " | ISBN: " + ISBN);
+        System.out.println("Book: " + getTitle() + " | Author: " + getAuthor() + " | Year: " + getYear() +
+                " | Genre: " + genre + " | ISBN: " + ISBN);
     }
 }
